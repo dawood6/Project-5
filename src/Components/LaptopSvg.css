@@ -1,0 +1,29 @@
+.upAnim {
+    animation: board 1.5s linear infinite;
+}
+
+@keyframes board {
+    0% {
+        transform: translateY(40px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(40px);
+    }
+}
+.downAnim {
+    animation: board2 1.5s linear infinite;
+}
+@keyframes board2 {
+    0% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(40px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}

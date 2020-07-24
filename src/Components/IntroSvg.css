@@ -1,0 +1,15 @@
+.boardAnimation {
+    animation: board 2s linear infinite;
+}
+
+@keyframes board {
+    0% {
+        transform: translateY(100px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(100px);
+    }
+}

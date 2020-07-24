@@ -1,0 +1,11 @@
+.pollP {
+    width: 40%;
+    float: left;
+    margin-left: 100px;
+    margin-top: 50px;
+    text-align: center;
+}
+.pollh1 {
+    text-align: center;
+    font-size: 50px;
+}

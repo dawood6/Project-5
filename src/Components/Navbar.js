@@ -1,6 +1,5 @@
 import React from 'react'
 import Logo from './assets/logo.svg'
-// import style from './Navbar.module.css'
 import './Navbar.css'
 const Navbar = () => {
     return (
@@ -8,7 +7,7 @@ const Navbar = () => {
             <nav id="navbar" class="">
                 <div class="nav-wrapper">
                     <div class="logo">
-                        <img src={Logo} className='logo' alt="logo"/>
+                        <img src={Logo} className='logo' alt="logo" />
                     </div>
                     <ul id="menu">
                         <li><a href="#home">Home</a></li>

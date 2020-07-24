@@ -1,0 +1,7 @@
+.PollSvg {
+    transition: transform .5s ease;
+}
+
+.PollSvg:hover {
+    transform: scale(1.3);
+}
